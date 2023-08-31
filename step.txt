@@ -1,6 +1,10 @@
--Khởi tạo dự án:git init
--Liên kết giữa local và remote  :git remote add origin + url 
 git remote add origin https://github.com/Fack1211/demo_git_bc58.git 
-git add -add
+
+
++đẩy từ Local lên remote
+git add-A
 git commit -m "tao trang home.html"
+++đẩy lần đầu
 git push -u origin master
+++ đẩy lần 2 trở đi
+git push
